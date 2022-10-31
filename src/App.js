@@ -44,7 +44,7 @@ function App() {
   return (
     <div className="App">
       <h2 className='my-5'> <span className='text-success'>Tajbeeh</span> Reader </h2>
-      <Form onSubmit={hanldeFormSubmit} className='w-50 mx-auto'>
+      <Form onSubmit={hanldeFormSubmit} className='w-lg-50 w-md-50 w-sm-100 mx-auto'>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Control onBlur={handleTajbeehName} type="text" placeholder="Tasbeeh Name  " required />
         </Form.Group>
